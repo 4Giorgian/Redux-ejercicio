@@ -26,7 +26,7 @@ export const buttonClicked = (event) => {
   return {
     type: actionTypes.BUTTON_CLICKED,
     payload: {
-        buttonWhoGotClickedName: event.onClick.name,
+        buttonWhoGotClickedName: event.target.name,
     },
   };
 };
