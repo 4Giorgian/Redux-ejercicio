@@ -7,7 +7,7 @@ const initialState = {
 
 const boxTicked = (state, action) => {
   return Object.assign({},state,{
-    hasTickedBox:action.payload.hasTickedBox,
+    hasTickedBox: action.payload.hasTickedBox,
   })
 }
 
@@ -15,8 +15,8 @@ const boxTicked = (state, action) => {
 const exercise = (state = initialState, action) => {
     switch (action.type) {
       case actionTypes.BOX_TICKED:
-        return boxTicked(state,action);
-    default:
+        return boxTicked(state, action);
+      default:
         return state;
     }
 };

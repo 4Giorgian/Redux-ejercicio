@@ -39,3 +39,10 @@ export const boxTicked = (event) => {
         },
     };
 };
+
+export const optionChange = (value) => {
+    return {
+      type: actionTypes.OPTION_CHANGE,
+      value,
+    }
+}

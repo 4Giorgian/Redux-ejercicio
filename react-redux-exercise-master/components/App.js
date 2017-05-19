@@ -3,7 +3,9 @@ import React from 'react';
 import IntelligentExerciseZero from '../containers/IntelligentExerciseZero';
 import IntelligentExerciseOne from '../containers/IntelligentExerciseOne';
 import IntelligentExerciseTwo from '../containers/IntelligentExerciseTwo';
+import IntelligentExerciseThree from '../containers/IntelligentExerciseThree';
 
+import ExerciseThree from './ExerciseThree';
 // This is where you build the skeleton of your App
 // by displaying the right intelligent components
 // Meet me in ../components/ExerciseZero after you've understood this file
@@ -23,6 +25,7 @@ const App = () => (
                 Select values are [&apos;&apos;, &apos;blue&apos;, &apos;white&apos;, &apos;red&apos;
                 ] - default value = &apos;&apos;
             </i>
+        <IntelligentExerciseThree />
         </div>
     </div>
 );
