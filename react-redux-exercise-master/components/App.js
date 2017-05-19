@@ -5,7 +5,7 @@ import IntelligentExerciseOne from '../containers/IntelligentExerciseOne';
 import IntelligentExerciseTwo from '../containers/IntelligentExerciseTwo';
 import IntelligentExerciseThree from '../containers/IntelligentExerciseThree';
 
-import ExerciseThree from './ExerciseThree';
+
 // This is where you build the skeleton of your App
 // by displaying the right intelligent components
 // Meet me in ../components/ExerciseZero after you've understood this file
