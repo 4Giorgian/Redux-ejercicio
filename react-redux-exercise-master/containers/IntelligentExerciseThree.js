@@ -5,6 +5,7 @@ import * as actions from '../actions';
 const mapStateToProps = (state) => {
     return {
         value: state.exercise3.value,
+
     };
 };
 

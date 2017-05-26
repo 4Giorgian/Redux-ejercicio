@@ -44,5 +44,6 @@ export const optionChange = (value) => {
     return {
       type: actionTypes.OPTION_CHANGE,
       value,
+
     }
 }
