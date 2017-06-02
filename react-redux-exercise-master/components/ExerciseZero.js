@@ -32,9 +32,9 @@ const ExerciseZero = ({ value, changeValue }) => (
             <label htmlFor="input-exerciseZero">
                 Change me:
                 <input
-                    id="input-exerciseZero"
+
                     type="text"
-                    name="exerciseZero"
+                
                     value={value}
                     onChange={changeValue}
                 />

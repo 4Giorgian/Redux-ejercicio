@@ -4,7 +4,9 @@ import exercise1 from './exercise1';
 import exercise2 from './exercise2';
 import exercise3 from './exercise3';
 import acumulador from './Acumulador';
-
+import clickAcumulador from './ClickAcumulador';
+import seteador from './seteador';
+import changeInput from './changeInput';
 // this is combining all the reducers we have in the app
 // you can access each of them using state.exercise0, state.exercise1, etc...
 const rootReducer = combineReducers({
@@ -13,6 +15,9 @@ const rootReducer = combineReducers({
     exercise2,
     exercise3,
     acumulador,
+    clickAcumulador,
+    seteador,
+    changeInput,
 });
 
 export default rootReducer;

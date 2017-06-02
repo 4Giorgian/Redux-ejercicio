@@ -47,3 +47,22 @@ export const optionChange = (value) => {
 
     }
 }
+export const clickButton = (nameButton) => {
+  return {
+    type: actionTypes.CLICK_BUTTON,
+    nameButton,
+  }
+}
+export const clickButtonColor = (value) => {
+  return {
+    type: actionTypes.CLICK_BUTTONCOLOR,
+    color: value,
+  }
+}
+
+export const changeInput = (value) => {
+  return {
+    type: actionTypes.CHANGE_INPUT,
+    value,
+  }
+}
