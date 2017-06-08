@@ -25,7 +25,7 @@ const ExerciseThree = ({ value, optionChange }) => {
   )
 }
 ExerciseThree.propTypes = {
-  value: PropTypes.string,
+  value: PropTypes.arrayOf(PropTypes.string),
   optionChange: PropTypes.func.isRequired,
 }
 

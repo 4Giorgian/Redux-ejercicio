@@ -47,12 +47,7 @@ export const optionChange = (value) => {
 
     }
 }
-export const clickButton = (nameButton) => {
-  return {
-    type: actionTypes.CLICK_BUTTON,
-    nameButton,
-  }
-}
+
 export const clickButtonColor = (value) => {
   return {
     type: actionTypes.CLICK_BUTTONCOLOR,
@@ -64,5 +59,27 @@ export const changeInput = (value) => {
   return {
     type: actionTypes.CHANGE_INPUT,
     value,
+  }
+}
+
+export const comprarItem = (stock,disabled) => {
+  return {
+    type: actionTypes.COMPRAR_ITEM,
+    stock,
+    disabled,
+  }
+}
+
+export const clickButton = (nameButton) => {
+  return {
+    type: actionTypes.CLICK_BUTTON,
+    nameButton,
+  }
+}
+
+export const agregarItem = (inventario) => {
+  return {
+    type: actionTypes.AGREGAR_ITEM,
+    inventario,
   }
 }

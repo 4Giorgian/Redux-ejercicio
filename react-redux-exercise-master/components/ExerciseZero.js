@@ -34,7 +34,7 @@ const ExerciseZero = ({ value, changeValue }) => (
                 <input
 
                     type="text"
-                
+
                     value={value}
                     onChange={changeValue}
                 />

@@ -9,4 +9,6 @@ export default keyMirror({
     CLICK_BUTTONCOLOR: null,
     CHANGE_INPUT:null,
     ON_PRESS: null,
+    COMPRAR_ITEM: null,
+    AGREGAR_ITEM: null,
 })
