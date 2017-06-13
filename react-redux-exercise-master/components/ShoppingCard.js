@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 const ShoppingCard = ({stock, comprarItem, disabled, agregarItem }) => {
 
-  const comprar = (event) => { comprarItem(event.target.stock)}
+  const comprar = (event) => { comprarItem(event.target.value)}
   const agregar = (event) => { agregarItem(stock)}
 
 

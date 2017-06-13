@@ -11,4 +11,6 @@ export default keyMirror({
     ON_PRESS: null,
     COMPRAR_ITEM: null,
     AGREGAR_ITEM: null,
+    GUARDAR_COMENTARIO: null,
+    AGREGAR_COMENTARIO: null,
 })

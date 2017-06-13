@@ -1,4 +1,4 @@
-import actionTypes from '../actions/actionTypes'
+import actionTypes from '../actions/actionTypes'  
 
 const initialState = {
   stock: 3,
@@ -10,6 +10,7 @@ const comprar= (state, action) => {
 if (state.stock >0) {
   return Object.assign({}, state, {
       stock: state.stock -1,
+
   });
 
 } else {
@@ -25,6 +26,7 @@ if (state.stock >0) {
 const agregar= (state, action) => {
   return Object.assign({}, state, {
       stock: state.stock +1,
+      disabled: false,
       });
 }
 

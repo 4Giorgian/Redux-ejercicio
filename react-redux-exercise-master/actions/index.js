@@ -48,10 +48,10 @@ export const optionChange = (value) => {
     }
 }
 
-export const clickButtonColor = (value) => {
+export const clickButtonColor = (color) => {
   return {
     type: actionTypes.CLICK_BUTTONCOLOR,
-    color: value,
+    color,
   }
 }
 
@@ -77,9 +77,22 @@ export const clickButton = (nameButton) => {
   }
 }
 
-export const agregarItem = (inventario) => {
+export const agregarItem = () => {
   return {
     type: actionTypes.AGREGAR_ITEM,
-    inventario,
+
+  }
+}
+export const guardarComentario = (comentario) => {
+  return {
+    type: actionTypes.GUARDAR_COMENTARIO,
+    comentario,
+  }
+}
+
+export const agregarComentario = (comentarioAgregado) => {
+  return{
+    type: actionTypes.AGREGAR_COMENTARIO,
+    comentarioAgregado,
   }
 }

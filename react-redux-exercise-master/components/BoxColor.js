@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 const BoxColor=({ value, changeValue, styleBox, clickButtonColor }) =>{
     const changeValueFinal = (event) => { changeValue(event.target.value)}
-    const setearColor = (event) => { clickButtonColor(value)}
+  
   return(
     <div>
         <h1>ENTRENAMIENTO2: BOXCOLOR</h1>

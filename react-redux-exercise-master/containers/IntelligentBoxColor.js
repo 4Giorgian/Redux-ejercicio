@@ -14,8 +14,8 @@ const mapDispatchToProps = (dispatch) => {
         changeValue: (value) => {
             dispatch(actions.changeInput(value));
         },
-        clickButtonColor: (value) => {
-            dispatch(actions.clickButtonColor(value));
+        clickButtonColor: (color) => {
+            dispatch(actions.clickButtonColor(color));
         },
     };
 };
