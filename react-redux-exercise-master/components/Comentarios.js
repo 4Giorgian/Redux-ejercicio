@@ -10,8 +10,10 @@ const Comentarios = ({ comentario, comentarioAgregado, guardarComentario, agrega
       <i>4.- un input donde escribiré un comentario o recordatorio,
       al hacer click en un button que tenndrá, el recordatorio del input se agrega a un Card.
       Es historico, guarda una lista de comentarios y muestra un card para cada uno </i>
-      
+
       <div>{comentarioAgregado}</div>
+      <div>otro</div>
+      <div>otro más</div>
       <form>
         <input
         type="text"
@@ -27,7 +29,7 @@ const Comentarios = ({ comentario, comentarioAgregado, guardarComentario, agrega
 
 Comentarios.propTypes = {
   comentario: PropTypes.string,
-  comentarioAgregado: PropTypes.string,
+  comentarioAgregado: PropTypes.arrayOf(PropTypes.string),
   guardarComentario: PropTypes.func,
   agregarComentario: PropTypes.func,
 }
