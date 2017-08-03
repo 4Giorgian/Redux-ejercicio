@@ -13,4 +13,7 @@ export default keyMirror({
     AGREGAR_ITEM: null,
     GUARDAR_COMENTARIO: null,
     AGREGAR_COMENTARIO: null,
+    CAMBIAR_NOMBRE: null,
+    CHANGE_INPUT_DISPLAY: null,
+    CLICK_BUTTON_DISPLAY: null,
 })

@@ -2,7 +2,7 @@ import actionTypes from '../actions/actionTypes';
 
 // Each reducer must define the initial state it works on.
 const initialState = {
-    value: 'PRUEBA',
+    value: "ingresa un número",
 };
 
 const change = (state, action) => {
@@ -11,13 +11,14 @@ const change = (state, action) => {
     });
 };
 
-const changeInput = (state = initialState, action) => {
+const inputDisplay = (state = initialState, action) => {
     switch (action.type) {
-    case actionTypes.CHANGE_INPUT:
+    case actionTypes.CHANGE_INPUT_DISPLAY:
         return change(state, action);
     default:
         return state;
     }
 };
 
-export default changeInput;
+
+export default inputDisplay;

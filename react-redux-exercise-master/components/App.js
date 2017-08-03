@@ -8,6 +8,7 @@ import IntelligentEntrenamiento1 from '../containers/IntelligentEntrenamiento1';
 import IntelligentBoxColor from '../containers/IntelligentBoxColor';
 import IntelligentShoppingCard from '../containers/IntelligentShoppingCard';
 import IntelligentComentarios from '../containers/IntelligentComentarios';
+import IntelligentDisplay from '../containers/IntelligentDisplay';
 
 // This is where you build the skeleton of your App
 // by displaying the right intelligent components
@@ -22,6 +23,7 @@ const App = () => (
         <IntelligentBoxColor />
         <IntelligentShoppingCard />
         <IntelligentComentarios />
+        <IntelligentDisplay />
     </div>
 );
 
