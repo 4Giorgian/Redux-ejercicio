@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Display = ({
   segmentA,
   segmentB,
@@ -14,11 +13,23 @@ const Display = ({
   clickButtonDisplay}) =>{
 
   const displayContainer = {
+    top: "170px",
+    left: "550px",
     width: "122px",
     height: "220px",
     position: "relative",
   	marginRight: "24px",
   	float: "left"
+  }
+  const h1 = {
+    position: "absolute",
+   top: "100px",
+   left: "440px",
+  }
+  const inputContainer = {
+    position: "relative",
+    top: "400px",
+    left: "400px",
   }
   const segmentBorderX ={
     display: "block",
@@ -44,6 +55,7 @@ const Display = ({
 
   return(
     <div>
+        <h1 style={h1}>DISPLAY REACT-REDUX</h1>
   			<div style={displayContainer}>
   				<div style={segmentA}><span style={segmentBorderX}></span></div>
   				<div style={segmentB}><span style={segmentBorderY}></span></div>
@@ -53,14 +65,16 @@ const Display = ({
   				<div style={segmentF}><span style={segmentBorderY}></span></div>
   				<div style={segmentG}><span style={segmentBorderX}></span></div>
   			</div>
-        <form>
+        <div style={inputContainer}>
+        <form >
         <input
             type="text"
             value={value}
             onChange={changeValueFinal}
         />
         </form>
-        <button onClick={(event) => { clickButtonDisplay(value)}} >OK</button>
+        <button onClick={(event) => { clickButtonDisplay(value)}}>OK</button>
+        </div>
    </div>
   )
 }
